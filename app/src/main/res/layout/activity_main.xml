@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.firebaseregister.MainActivity"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:id="@+id/title"
+        android:textAlignment="center"/>
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/memberLogin"
+        android:text="會員登入"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"/>
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/registerBtn"
+        android:layout_gravity="center"
+        android:text="會員註冊"
+        android:layout_margin="5dp"/>
+
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="更新個人資料"
+        android:id="@+id/editInfo"
+        android:layout_margin="5dp"/>
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="登出"
+        android:id="@+id/logoutttt"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/putAddress"
+        android:visibility="gone"
+        android:hint="請輸入你的地址"
+        android:layout_margin="15dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/putName"
+        android:hint="請輸入你的姓名"
+        android:layout_margin="15dp"/>
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/saveInfoForGoogle"
+        android:text="儲存資訊"
+        android:layout_margin="5dp"
+        android:layout_gravity="center"/>
+
+
+</LinearLayout>
